@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-03-16 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Started my **PhD in Health Sciences and Engineering** at Universidad de Valparaíso, working on explainable AI for medical imaging under the supervision of Prof. Rodrigo Salas at the Millennium Institute [iHEALTH](https://i-health.cl/).

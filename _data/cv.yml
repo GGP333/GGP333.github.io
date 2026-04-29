@@ -1,189 +1,223 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Gabriel Guerra Pinto
+  label: PhD Candidate · Biomedical Engineer · Applied Data Scientist in Health
+  email: gabriel.guerrap99@gmail.com
+  phone: "+56 9 7907 0301"
+  location: Valparaíso, Chile
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Biomedical engineer and PhD candidate focused on deep learning for medical imaging.
+    Research interests include explainable AI for tumor segmentation in multi-contrast MRI,
+    dense breast tissue analysis in mammography, and translational LLM-based prototypes
+    for clinical workflows. Experience leading R&D projects and collaborating with
+    interdisciplinary clinical and engineering teams.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: GGP333
     - network: LinkedIn
-      username: example
+      username: gabriel-guerra-pinto-a19927319
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Angamos 655
+    city: Reñaca, Viña del Mar
+    region: Valparaíso
+    postalCode: ""
+    countryCode: CL
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: Universidad de Valparaíso
+        location: Valparaíso, Chile
+        url: https://www.uv.cl/
+        area: Health Sciences and Engineering
+        studyType: PhD (in progress)
+        start_date: 2024
+        end_date: 2030
         score: ""
-        courses: "Theory of Relativity"
+        courses: "AI/ML for Healthcare · Explainable AI · Medical Imaging"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Prof. Rodrigo Salas (rodrigo.salas@uv.cl)."
+          - "Faculty of Medicine — Doctorate in Health Sciences and Engineering."
+          - "Researcher at the Millennium Institute iHEALTH."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Universidad de Valparaíso
+        location: Valparaíso, Chile
+        url: https://www.uv.cl/
+        area: Engineering Sciences, Biomedical Engineering
+        studyType: MSc (in progress, expected 2026)
+        start_date: 2023
+        end_date: 2026
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: ChatRad AI–Brain — An Explainable Conversational System for Brain Tumor Segmentation in MRI Datasets."
+          - "Advisor: Prof. Rodrigo Salas."
+
+      - institution: Universidad de Valparaíso
+        location: Valparaíso, Chile
+        url: https://www.uv.cl/
+        area: Biomedical Engineering (Ingeniería Civil Biomédica)
+        studyType: Professional Degree
+        start_date: 2019
+        end_date: 2024
+        score: "5.52 / 7.0 · Class rank 11/59"
+        highlights:
+          - "Thesis: Brain Tumor Segmentation in Multicontrast MRI using Explainable AI and Transformers."
+          - "Achieved a Dice score of 0.89 on the BraTS dataset using Swin UNETR with attention-based interpretability and Grad-CAM."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: VIU25P0233 VIZCACHA — Visualization in Cancer with Assisted Chat
+        position: Data Scientist
+        location: Universidad de Valparaíso, Chile
+        start_date: 2025-09-01
+        end_date: present
+        summary: ANID-funded translational project applying LLMs and explainable segmentation to brain tumor analysis.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Implementation of LLMs, explainability, and segmentation oriented to brain tumors."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: VIZCACHA-PDF — Engineering 2030 Prototyping Contest (2nd edition)
+        position: Project Director
+        location: Universidad de Valparaíso, Chile
+        start_date: 2025-09-01
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Semantic extraction and standardization of clinical information from PDFs using LLMs."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: FONDEF IT23I0040 mamAI-Dens
+        position: Data Scientist
+        location: Universidad de Valparaíso, Chile
+        start_date: 2024-10-01
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Models for segmentation and quantification of dense breast tissue in digital mammography."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Millennium Institute iHEALTH
+        position: MSc Researcher
+        location: Chile
+        url: https://i-health.cl/
+        start_date: 2024-03-01
+        end_date: present
+        highlights:
+          - "Research on brain tumor segmentation with XAI; integration of LLMs and RAG for radiological support."
+          - "Implementation of explainability tools and qualitative analysis for AI segmentation models."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: ChatRad AI — Engineering 2030 Prototyping Contest (1st edition)
+        position: Project Director
+        location: Universidad de Valparaíso, Chile
+        start_date: 2024-11-01
+        end_date: 2025-06-01
+        highlights:
+          - "Optimization of RIS/PACS workflows using large language models and agents."
+
+      - company: FONDECYT 1221938 — Explainable Deep Neuro-Fuzzy Inference for Brain Tumor Segmentation
+        position: Research Assistant
+        location: Universidad de Valparaíso, Chile
+        start_date: 2023-09-01
+        end_date: 2024-03-01
+        highlights:
+          - "Research on visual explainability of Transformer models for brain tumor segmentation in MRI."
+
+      - company: Carlos Van Buren Hospital — Imaging Unit
+        position: Professional Internship
+        location: Valparaíso, Chile
+        start_date: 2024-01-01
+        end_date: 2024-03-01
+        highlights:
+          - "Implementation of cerebrovascular reactivity maps and brain connectivity pipelines."
+          - "Support in mammography anonymization for the FONDEF mamAI-Dens project."
+
+      - company: Centro de Investigación y Desarrollo en Ingeniería para la Salud (CINGS)
+        position: Research Assistant
+        location: Valparaíso, Chile
+        start_date: 2023-06-01
+        end_date: 2023-09-01
+        highlights:
+          - "Evaluation of explainable AI techniques; subject ordering for adequate performance evaluation."
+
+      - company: School of Biomedical Engineering, Universidad de Valparaíso
+        position: Teaching Assistant
+        location: Valparaíso, Chile
+        start_date: 2023-03-01
+        end_date: 2023-12-01
+        highlights:
+          - "Workshop on Integration of Graduation Profile III (1st semester)."
+          - "Health Data Management (2nd semester)."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Visual Explainability of Attention U-Net for Brain Tumor Segmentation in Multicontrast Magnetic Resonance Images"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Gabriel Guerra Pinto
+          - Rodrigo Salas
+          - "et al."
+        publisher: "SIPAIM 2025 Conference, Pasto, Colombia (under review)"
+        releaseDate: 2025-11-01
+        summary: "Conference paper and oral presentation on quantitative visual explainability for attention-based segmentation models in brain MRI."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Segmentación Neuro-Oncológica en Imágenes de Resonancia Magnética Utilizando XAI-Transformers"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Gabriel Guerra Pinto
+        publisher: "31st Young Researchers Conference AUGM, UDELAR, Montevideo, Uruguay"
+        releaseDate: 2024-11-01
+        summary: "Conference presentation on Transformer-based segmentation of brain tumors with explainable AI."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Segmentación en Neuroimagen Oncológica con XAI-Transformers"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Gabriel Guerra Pinto
+        publisher: "Fundación Copec-UC — XX International Seminar: AI and its Impact, Santiago, Chile"
+        releaseDate: 2024-10-01
+        summary: "Poster presentation on XAI-based brain tumor segmentation using Transformer architectures."
+
+      - title: "Classification of Parkinson's Disease based on Biomedical Voice Measurements using Explainable Machine Learning Models"
+        authors:
+          - Gabriel Guerra Pinto
+        publisher: "International Conference on Data Science, Universidad Diego Portales, Santiago, Chile"
+        releaseDate: 2023-10-01
+        summary: "Conference presentation on interpretable ML models applied to biomedical voice signals for Parkinson's disease classification."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Deep Learning
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, MONAI, segmentation, classification, Transformers, Swin UNETR, U-Net"
+
+      - name: Explainable AI
+        level: Advanced
+        icon: fa-solid fa-eye
+        keywords: "Grad-CAM, Integrated Gradients, RISE, attention rollout, qualitative & quantitative XAI evaluation"
+
+      - name: Medical Imaging
+        level: Advanced
+        icon: fa-solid fa-image
+        keywords: "Multi-contrast MRI, digital mammography, BraTS, preprocessing, evaluation metrics"
+
+      - name: LLMs & Agents
+        level: Intermediate
+        icon: fa-solid fa-robot
+        keywords: "RAG, LLM-based clinical assistants, structured information extraction from clinical PDFs"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, scientific computing, ML pipelines, data engineering for healthcare"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Spanish
+        summary: "Native"
 
       - name: English
-        summary: "Fluent"
+        summary: "Professional working proficiency"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: AI for Healthcare
+        icon: fa-solid fa-heart-pulse
+        keywords: "Explainable medical AI, brain tumor segmentation, breast cancer screening, conversational radiology, translational AI prototypes"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Leadership:
+      - company: Centro de Estudiantes de Ingeniería Civil Biomédica
+        position: Student Leader
+        location: Universidad de Valparaíso
+        start_date: 2020
+        end_date: 2023
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+          - "Health and Wellbeing Delegate (2020)."
+          - "Communications Secretary (2022)."
+          - "Sports Secretary (2023)."
