@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: PhD Candidate · <a href='https://www.uv.cl/'>Universidad de Valparaíso</a> · <a href='https://i-health.cl/'>Millennium Institute iHEALTH</a>. AI/ML for medical imaging.
+subtitle: PhD Student · <a href='https://postgrados.uv.cl/doctorado/ingenieria-salud'>Doctorado en Ciencias e Ingeniería para la Salud</a>, <a href='https://www.uv.cl/'>Universidad de Valparaíso</a> · Researcher at <a href='https://i-health.cl/'>Millennium Institute iHEALTH</a>.
 
 profile:
   align: right
@@ -28,12 +28,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in **Health Sciences and Engineering** at [Universidad de Valparaíso](https://www.uv.cl/) (Chile), working under the supervision of [Prof. Rodrigo Salas](https://scholar.google.com/citations?user=KCNwoR8AAAAJ). I am also a researcher at the [Millennium Institute for Intelligent Healthcare Engineering (iHEALTH)](https://i-health.cl/), where I work at the intersection of **deep learning, explainable AI, and medical imaging**.
+I am a PhD student in the [Doctorado en Ciencias e Ingeniería para la Salud](https://postgrados.uv.cl/doctorado/ingenieria-salud) at [Universidad de Valparaíso](https://www.uv.cl/) (Chile), and a researcher at the [Millennium Institute for Intelligent Healthcare Engineering (iHEALTH)](https://i-health.cl/). My work sits at the intersection of **deep learning, explainable AI, and medical imaging**.
 
-My research focuses on **explainable transformer-based segmentation of brain tumors** in multi-contrast MRI, with the long-term goal of designing AI systems that radiologists can actually trust and use in their daily workflow. I am particularly interested in moving beyond saliency-style heatmaps toward **quantitative, rigorously evaluable explainability** — and in coupling segmentation models with **Large Language Models and agents** to deliver structured, conversational radiology support.
+My focus is on building **AI solutions with the potential for large, real-world impact in healthcare** — particularly in radiology and oncology — by designing systems that are explainable, trustworthy, and clinically usable. My doctoral research develops an **explainable, neuro-fuzzy vision–language framework** for oncology that fuses multi-contrast MRI with unstructured clinical text and produces traceable descriptors aligned with radiology lexicons such as BI-RADS and PI-RADS. Methodologically, I combine **self-supervised vision encoders** (UNETR / Swin-UNETR with MAE or SimCLR), **contrastive vision–language fusion**, and **neuro-fuzzy inference modules** (NFIS / ANFIS) that explicitly model uncertainty and emit interpretable if–then rules. The long-term goal is transferable, explainable diagnostic support that strengthens clinical decision-making in resource-limited regional hospitals, beyond the Metropolitan Region of Chile.
 
-Currently I lead and contribute to several translational AI projects, including [**VIZCACHA**](https://www.anid.cl/) (VIU25P0233 — Visualization in Cancer with Assisted Chat), [**mamAI-Dens**](https://www.anid.cl/) (FONDEF IT23I0040 — dense breast tissue segmentation), and **ChatRad AI**, a conversational system that streamlines RIS/PACS interactions using LLMs and agents. My undergraduate thesis introduced a Swin UNETR–based pipeline for brain tumor segmentation reaching a Dice score of **0.89** on the BraTS dataset, and my Master's thesis extends this work toward the **quantitative evaluation of visual explainability** in deep segmentation models.
+I lead and contribute to several translational AI projects within iHEALTH:
 
-I hold a degree in **Biomedical Engineering** (*Ingeniería Civil Biomédica*, Universidad de Valparaíso, 2024) and I am finishing my **MSc in Engineering Sciences, Biomedical Engineering** (2026). Beyond research, I have led student-driven prototyping competitions and worked in clinical environments such as the imaging unit of *Hospital Carlos Van Buren*.
+- **Brain tumor MRI segmentation** (FONDECYT 1221938 / iHEALTH): evaluation of state-of-the-art 3D architectures (Attention U-Net 3D and Swin-UNETR) and design of novel **quantitative metrics for visual explainability** (Grad-CAM, feature extraction) ensuring the anatomical coherence of generated explanations.
+- [**mamAI-Dens**](https://i-health.cl/) (FONDEF IT23I0040): preprocessing pipelines and U-Net / nnU-Net models for **fibroglandular tissue segmentation in mammography**, plus an integrated multi-task model for ACR (BI-RADS) classification using multi-task regularization to align segmentation and diagnostic outputs.
+- **VIZCACHA** (VIU25P0233 — *Visualization in Cancer with Assisted Chat*): conversational radiology platform built on **LLMs + RAG**, with a companion module **VIZCACHA-PDF** for medical OCR / clinical NLP developed with the [Speaknosis](https://i-health.cl/) startup.
+- Translational work at *Hospital Carlos Van Buren*: **DICOM anonymization** pipelines for the mamAI-Dens database and **neuroradiology support GUIs** integrated with the hospital workflow.
+
+I hold a degree in **Biomedical Engineering** (*Ingeniería Civil Biomédica*, Universidad de Valparaíso, 2024) and I am finishing my **MSc in Engineering Sciences, Biomedical Engineering** (2026). Beyond research, I have served as teaching assistant in *Gestión de Datos en Salud* and *Taller de Integración Perfil de Egreso*, lectured the *AI and Applications in Health* workshop at the iHEALTH Summer School, and presented my work at the *Jornada de Jóvenes Investigadores* (Uruguay), the *International Conference on Image and Signal Processing* (Colombia), the *COPEC-UC AI Seminar*, and the *UDP Data Science Congress*.
 
 I am always open to collaborations on **explainable medical AI**, clinical deployment of foundation models, and translational radiology tools. Feel free to reach me by [email](mailto:gabriel.guerrap99@gmail.com).

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Selected research and translational AI projects in medical imaging.
 nav: true
