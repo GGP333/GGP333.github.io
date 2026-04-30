@@ -74,13 +74,13 @@ cv:
         highlights:
           - "Implementation of LLMs, explainability, and segmentation oriented to brain tumors."
 
-      - company: VIZCACHA-PDF — Engineering 2030 Prototyping Contest (2nd edition)
+      - company: ClinParse — Engineering 2030 Prototyping Contest (2nd edition)
         position: Project Director
         location: Universidad de Valparaíso, Chile
         start_date: 2025-09-01
         end_date: present
         highlights:
-          - "Semantic extraction and standardization of clinical information from PDFs using LLMs."
+          - "Semantic extraction and standardization of clinical information from PDFs using LLMs (in collaboration with Speaknosis)."
 
       - company: FONDEF IT23I0040 mamAI-Dens
         position: Data Scientist
