@@ -413,11 +413,11 @@ ninja.data = [{
           description: "Engineering 2030 Prototyping Contest (1st edition) · LLMs and agents for radiology workflows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_chatrad_ai/";
-            },},{id: "projects-vizcacha-pdf-clinical-information-extraction-with-llms",
-          title: 'VIZCACHA-PDF — Clinical Information Extraction with LLMs',
+            },},{id: "projects-clinparse-clinical-information-extraction-with-llms",
+          title: 'ClinParse — Clinical Information Extraction with LLMs',
           description: "Engineering 2030 Prototyping Contest (2nd edition) · Semantic extraction from clinical PDFs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_vizcacha_pdf/";
+              window.location.href = "/projects/6_clinparse/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
